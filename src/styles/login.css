@@ -1,0 +1,154 @@
+
+.login{
+    width: 100vw;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 1em;
+}
+
+.login__container{
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+}
+
+.login__welcome{
+    line-height: 1.5em;
+    color: rgba(17, 17, 17, 0.699);
+}
+
+.login__test{
+    background-color: #D8F5FD;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+}
+.login__test h3{
+    text-align: center;
+}
+
+.login__test ul {
+    width: 100%;
+}
+
+.login__test ul li{
+    padding: 0.5em 0;
+    color: rgba(8, 8, 8, 0.712);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 0.5em;
+}   
+
+.login__test ul li i{
+    font-size: 1.2em;
+  
+} 
+
+.form-container{
+   
+    display: grid;
+    gap: 2em;
+}
+
+.login__form-container{
+    display: grid;
+    gap: 0.5em;
+}
+.login__form-container input{
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    padding: 0.7em 1em;
+    border-radius: 0.3em;
+}
+
+.login__btn{
+    padding: 1em;
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 500;
+    background-color: #F85555;
+    border: none;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.login__btn:hover{
+    background-color: #d11e1e;
+    filter: brightness(1.5);
+
+}
+
+.sign__up{
+    display: flex;
+    gap: 0.2em;
+    font-size: 0.8em ;
+}
+.sign__up button{
+    background-color: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #2fa8f8;
+}
+
+.error__login{
+    color: #F85555;
+    font-weight: 600;
+    text-align: center;
+}
+
+.log__out{
+   
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.log__out article{
+    background-color: #D8F5FD;
+    padding: 2em;
+    border-radius: 0.5em;
+    display: grid;
+    justify-items: center;
+    gap: 1em;
+    min-width: 340px;
+    max-width: 350px;
+}
+
+.log__out article i{
+    font-size: 12em;
+    color: #a5a3a3;
+}
+
+.log__out article p{
+    font-weight: 700;
+    color: rgba(54, 51, 51, 0.829);
+}
+
+.log__out article button{
+    padding: 1em 2em;
+    border: none;
+    background-color: #F85555;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.log__out article button:hover{
+    background-color: #d11e1e;
+    filter: brightness(1.5);
+}

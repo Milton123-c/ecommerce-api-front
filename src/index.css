@@ -1,0 +1,36 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "roboto", sans-serif;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, p, ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0
+}
+input{
+    outline: 0;
+}
+
+img{
+    display: block;
+}
+
+.alertify .ajs-dialog {
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    
+}
+

@@ -1,0 +1,157 @@
+
+.filtrar{
+    position: fixed;
+    top: 0;
+    width: 80vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 9999999999;
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   padding: 1em;
+}
+
+.open__filter{
+    right: 0;
+    transition: right 0.3s ease-in-out;
+}
+
+.close__filter{
+    right: -80vw;
+    transition: right 0.3s ease-in-out;
+}
+
+
+.filtrar__title{
+    color: rgb(66, 63, 63);
+   font-weight: 600;
+   height: min-content;
+   margin-top: 2.5em;
+
+}
+
+.btn__filtrar--close{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+   text-align: right;
+    background-color: #fff;
+    border: none;
+   width: min-content;
+   height: min-content;
+   padding: 0.7em;
+}
+
+.btn__filtrar--close i{
+    font-size: 1.7em;
+    transition: color 0.3s ease-in-out;
+}
+
+.btn__filtrar--close:hover i{
+   color: red;
+}
+
+.open__filtrar{
+
+}
+
+.open__price{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+   
+}
+
+.open__price > p:nth-child(1){
+    color: rgb(66, 63, 63);
+   font-weight: 600;
+}
+
+.open__price > p:nth-child(2){
+    font-size: 1.4em;
+}
+
+.price{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.category__price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category__price label{
+    width: 100%;
+    padding-bottom: 0.5em;
+}
+.category__price input{
+    width: 100%;
+}
+
+.filtrar__category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.1em;
+    padding-bottom: 1em;
+}
+
+
+.filtrar__category p:nth-child(1){
+    color: rgb(66, 63, 63);
+   font-weight: 600;
+}
+
+.filtrar__category p:nth-child(2){
+    font-size: 1.4em;
+}
+
+.category__content{
+    border-top: 1px solid gray;
+    padding-top: 1em;
+    width: 100%;
+    display: grid;
+    gap: 1em;
+}
+
+.submit{
+    background-color:rgb(250, 0, 0) ;
+    color: #fff;
+    border: none;
+    padding: 0.7em 3em;
+    border-radius: 0.3em;
+}
+
+.category__price > label{
+    background-color: darkmagenta;
+    padding: 0.5em;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+}
+
+.filter__submit{
+    width: 100%;
+    text-align: right;
+    padding-right: 1em;
+}
+
+
+@media (min-width: 800px) {
+
+    .filtrar{
+        top: 89px;
+        left: 0;
+        width: 300px;
+        background-color:#fff ;
+        z-index: 999;
+    }
+
+    .btn__filtrar--close{
+        display: none;
+    }
+    
+}
